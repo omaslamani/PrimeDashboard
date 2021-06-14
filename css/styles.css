@@ -1,0 +1,25 @@
+.nav-item
+{
+    padding: 0 20% 0 20%;
+}
+.nav-item::after /*Find media query to pad when dropped down.*/
+{
+    padding: 0 2% 0 2%;
+}
+
+
+#navbar-logo
+{
+    text-align: center;
+}
+
+#navbar-logo
+{
+    width: 80%;
+    padding-left: 10%;
+}
+
+#logo-anchor
+{
+    width: 10%;
+}
