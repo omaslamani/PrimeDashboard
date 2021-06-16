@@ -1,3 +1,5 @@
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -34,7 +36,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="">Students </a>
+                    <a class="nav-link" href="index.html">Students </a>
                     <!--<svg>IMAGE GOES HERE</svg>-->
                 </li>
                 <li class="nav-item">
@@ -94,7 +96,7 @@
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <div class="card" ">
+                    <div class="card" >
                         <div class=" card-body">
                             <div class="row">
                                 <div class="col col-lg-6 col-md-6 col-sm-3">                                    
@@ -152,7 +154,7 @@
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                 data-bs-parent="#accordionExample">
                 <div class="accordion-body">
-                    <div class="card" ">
+                    <div class="card" >
                         <div class=" card-body">
                             <div class="row">
                                 <div class="col col-lg-6 col-md-6 col-sm-3">
@@ -201,6 +203,260 @@
             </div>
         </div>
     </div>
+<h2></h2>
+
+<div class="card shadow mb-8">
+    
+    <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Student Completion / Attempt by activity </h1>
+              
+    <hr class="mt-2 mb-5">
+  
+    <div class="row text-center text-lg-left">
+
+    <div class="card-header py-3">
+        <h6 class="m-0 font-weight-bold text-primary">header</h6>
+    </div>
+    <div class="card-body text-center">
+    <div class="col-md-8 text-center" >
+        <!--Panel Header-->
+          <div class="view view-cascade py-3 gradient-card-header info-color-dark mb-4">
+       
+               <canvas id="lineChart"></canvas>
+       
+           </div>
+    </div>
+    </div>
+
+</div>
+
+
+
+       <!--Section: gallery-->
+       <section id="gallery" class="text-center py-5">
+
+        <!-- Container -->
+            <div class="container">
+
+                <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Activity sample solutions</h1>
+              
+                <hr class="mt-2 mb-5">
+              
+                <div class="row text-center text-lg-left">
+              
+            <!-- Section description -->
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div id="mdb-lightbox-ui"></div>
+
+                    <div class="mdb-lightbox">
+
+
+                            <div class="row text-center text-lg-left">
+  
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 1.1</p>
+                                  <a href="images/solutions/1-1.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/1-1.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 1.2</p>
+                                  <a href="images/solutions/1-2.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/1-2.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 1.3</p>
+                                  <a href="images/solutions/1-3.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/1-3.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 1.4</p>
+                                  <a href="images/solutions/1-4.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/1-4.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 1.5</p>
+                                  <a href="images/solutions/1-5.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/1-5.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 1.6</p>
+                                  <a href="images/solutions/1-6.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/1-6.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 1.7</p>
+                                  <a href="images/solutions/1-7.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/1-7.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 2.1</p>
+                                  <a href="images/solutions/2-1.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/2-1.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 2.2</p>
+                                  <a href="images/solutions/2-2.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/2-2.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 2.3</p>
+                                  <a href="images/solutions/2-3.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/2-3.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 2.4</p>
+                                  <a href="images/solutions/2-4.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/2-4.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 2.5</p>
+                                  <a href="images/solutions/2-5.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/2-5.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 2.6</p>
+                                  <a href="images/solutions/2-6.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/2-6.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 2.7</p>
+                                  <a href="images/solutions/2-7.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/2-7.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 3.1</p>
+                                  <a href="images/solutions/3-1.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/3-1.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 3.2</p>
+                                  <a href="images/solutions/3-2.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/3-2.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 3.3</p>
+                                  <a href="images/solutions/3-3.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/3-3.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 3.4</p>
+                                  <a href="images/solutions/3-4.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/3-4.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 3.5</p>
+                                  <a href="images/solutions/3-5.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/3-5.png" alt="">
+                                      </a>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <p>Activity 3.6</p>
+                                  <a href="images/solutions/3-6.png" class="d-block mb-4 h-100">
+                                        <img class="img-fluid img-thumbnail" src="images/solutions/3-6.png" alt="">
+                                      </a>
+                                </div>
+                              </div>
+
+                </div>
+            </div>
+
+        </div>
+        <!-- Container -->
+
+    </section>
+    <!--Section: gallery-->
+
+
+
+  </div>
+  <!-- /.container -->
+    </div>
+    </div>
+
+</div>
+
+
+
+
+
+    <!--somehow the ones in tasks.js is not working-->   
+<script>
+     var ctxL = document.getElementById("lineChart").getContext('2d');
+      var myLineChart = new Chart(ctxL, {
+        type: 'line',
+        data: {
+          labels: ["1.1", "1.2", "1.3", "1.4", "1.5", "1.6", "1.7",
+                   "2.1", "2.2", "2.3", "2.4", "2.5", "2.6", "2.7",
+                   "3.1", "3.2", "3.3", "3.4", "3.5", "3.6"],
+          datasets: [{
+            label: "# students attempted",
+            // fillColor: "#fff",
+            backgroundColor: 'rgba(255, 255, 255, .3)',
+            borderColor: 'rgba(102, 224, 255)',
+            data: [100, 90, 87, 82, 70, 65, 64, 60, 55, 53, 
+                   50, 44, 40, 38, 38, 30, 29, 28, 25, 25, 24],
+          },
+                    {
+             label: "# students completed",
+             backgroundColor: 'rgba(255, 255, 255, .3)',
+            borderColor: 'rgba(255, 153, 0)',
+            data: [100, 88, 85, 80, 60, 53, 51, 49, 44, 41, 
+                   37, 32, 27, 22, 22, 18, 17, 15, 12, 10, 10],
+             type: 'line',
+             // this dataset is drawn on top
+             order: 1
+         }]
+        },
+        options: {
+          legend: {
+            labels: {
+              fontColor: "#000000",
+            }
+          },
+          scales: {
+            xAxes: [{
+              gridLines: {
+                display: true,
+                color: "rgba(0,0,0,.25)"
+              },
+              ticks: {
+                fontColor: "#000000",
+              },
+            }],
+            yAxes: [{
+              display: true,
+              gridLines: {
+                display: true,
+                color: "rgba(0,0,0,.25)"
+              },
+              ticks: {
+                fontColor: "#000000",
+              },
+            }],
+          }
+        }
+      });
+
+</script>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
